@@ -1,1 +1,58 @@
-#gridwrapper
+*{
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#gridwrapper{
+    display: grid;
+    height: 100vh;
+    width: 100wh;
+
+grid-template-rows: 50px 1fr 250px 250px 50px ;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+grid-template-areas: 
+"he he he he"
+"s1 s1 s1 s1"
+"s2 s2 s3 as"
+"s4 s5 s5 as"
+"fo fo fo fo";
+    
+}
+header{background-color: skyblue;grid-area: he;} 
+#bellowheader{background-color: skyblue;grid-area: s1;}
+#bigsectionabove{background-color: blue;grid-area: s2;}
+#shortsectionabove{background-color: grey; grid-area: s3;}
+aside{background-color: slateblue;grid-area: as;}
+#shortsectionbellow{background-color: blue;grid-area: s4;}
+#bigsectionbellow{background-color: grey;grid-area: s5;}
+footer{background-color: skyblue;grid-area: fo;}
+
+#logotyp{
+    height: 175px;
+    width: 175px;
+}
+#middle{
+    text-align: center;
+}
+#logotext{
+    font-family: "Brush Script MT"; 
+    font-size: 26px;
+}
+#imgfullsection{
+    height: 100%;
+    width: 100%;
+}
+
+.menusystem {
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menuelement{
+    font-family: "Brush Script MT"; 
+    font-size: 20px;
+}

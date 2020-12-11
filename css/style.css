@@ -9,18 +9,18 @@
     height: 100vh;
     width: 100wh;
 
-grid-template-rows: 50px 1fr 250px 250px 50px ;
+grid-template-rows: 150px 1fr 250px 250px 50px ;
 grid-template-columns: 1fr 1fr 1fr 1fr ;
 grid-template-areas: 
 "he he he he"
-"s1 s1 s1 s1"
+"na na na na"
 "s2 s2 s3 as"
 "s4 s5 s5 as"
 "fo fo fo fo";
     
 }
 header{background-color: skyblue;grid-area: he;} 
-#bellowheader{background-color: skyblue;grid-area: s1;}
+#bellowheader{background-color: skyblue;grid-area: na;}
 #bigsectionabove{background-color: blue;grid-area: s2;}
 #shortsectionabove{background-color: grey; grid-area: s3;}
 aside{background-color: slateblue;grid-area: as;}
@@ -28,11 +28,25 @@ aside{background-color: slateblue;grid-area: as;}
 #bigsectionbellow{background-color: grey;grid-area: s5;}
 footer{background-color: skyblue;grid-area: fo;}
 
-#logotyp{
-    height: 175px;
-    width: 175px;
+#shortsectionabove{
+    background-image: url(../img/mexican\ water.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#middle{
+
+.flexparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logotyp{
+    height: 150px;
+    width: 150px;
+    
+}
+#middletext{
     text-align: center;
 }
 #logotext{

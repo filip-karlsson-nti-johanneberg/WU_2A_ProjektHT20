@@ -21,6 +21,30 @@ grid-template-areas:
 "f4 f4 p4"
 "fo fo fo";
 }
+.fooditem{
+    font-family:"Brush Script MT";
+    font-size: 25px;
+    display: inline;
+}
+.fooddesc{
+    font-family: Courier New;
+    font-size: 10px;
+    display: inline;
+
+}
+.imagefood{
+    height: 140px;
+    width: 140px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
 #food1{background-color: lightblue;grid-area: f1;}
 #food2{background-color: lightblue;grid-area: f2;}
 #food3{background-color: lightblue;grid-area: f3;}
@@ -32,7 +56,7 @@ grid-template-areas:
 
 header{background-color: skyblue;grid-area: he;} 
 #bellowheader{background-color: skyblue;grid-area: na;}
-footer{background-color: grey;grid-area: fo;}
+footer{background-color: skyblue;grid-area: fo;}
 
 
 

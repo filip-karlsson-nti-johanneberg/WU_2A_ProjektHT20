@@ -9,7 +9,7 @@
     height: 100vh;
     width: 100wh;
 
-grid-template-rows: 150px 1fr 250px 175px 50px ;
+grid-template-rows: 150px 30px 250px 175px 50px ;
 grid-template-columns: 1fr 1fr 1fr 1fr ;
 grid-template-areas: 
 "he he he he"
@@ -26,7 +26,7 @@ header{background-color: skyblue;grid-area: he;}
 aside{background-color: slateblue;grid-area: as;}
 #shortsectionbellow{background-color: skyblue;grid-area: s4;}
 #bigsectionbellow{background-color: grey;grid-area: s5;}
-footer{background-color: skyblue;grid-area: fo;}
+footer{background-color: grey;grid-area: fo;}
 
 #shortsectionabove{
     background-image: url(../img/water\ splash\ transparent.png);
@@ -42,7 +42,7 @@ text-decoration: underline;
 }
 
 #loremtext{
-    
+    font-family: 'Times New Roman', Times, serif
 }
 
 #findus {
@@ -55,9 +55,7 @@ justify-content: center;
 align-items: center;
 }
 
-#shortsectionbellow { 
 
-}
 
 #open{
     display: flex;

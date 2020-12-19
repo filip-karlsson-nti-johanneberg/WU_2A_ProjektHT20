@@ -21,28 +21,43 @@ grid-template-areas:
 }
 header{background-color: skyblue;grid-area: he;} 
 #bellowheader{background-color: skyblue;grid-area: na;}
-#bigsectionabove{background-color: skyblue;grid-area: s2;}
+#bigsectionabove{background-color: lightblue;grid-area: s2;}
 #shortsectionabove{background-color: grey; grid-area: s3;}
-aside{background-color: slateblue;grid-area: as;}
-#shortsectionbellow{background-color: skyblue;grid-area: s4;}
-#bigsectionbellow{background-color: grey;grid-area: s5;}
-footer{background-color: grey;grid-area: fo;}
+aside{background-color: lightblue;grid-area: as;}
+#shortsectionbellow{background-color: lightblue;grid-area: s4;}
+#bigsectionbellow{background-color: lightblue;grid-area: s5;}
+footer{background-color: skyblue;grid-area: fo;}
 
 #shortsectionabove{
-    background-image: url(../img/water\ splash\ transparent.png);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#rubriktext{
+#imageinshortsection{
+    height: 250px;
+}
+
+#imageinlongsection{
+    height: 170px;
+    width: 652px;
+}
+
+#asidemiddle{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.rubriktext{
 font-family: 'Times New Roman', Times, serif ;
 font-size: 25px;
 text-decoration: underline;
 }
 
-#loremtext{
-    font-family: 'Times New Roman', Times, serif
+.loremtext{
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
 }
 
 #findus {

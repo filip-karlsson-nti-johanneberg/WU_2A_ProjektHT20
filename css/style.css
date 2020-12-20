@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+body{background-color: black;}
 #gridwrapper{
     display: grid;
     height: 100vh;
@@ -22,7 +23,7 @@ grid-template-areas:
 header{background-color: skyblue;grid-area: he;} 
 #bellowheader{background-color: skyblue;grid-area: na;}
 #bigsectionabove{background-color: lightblue;grid-area: s2;}
-#shortsectionabove{background-color: grey; grid-area: s3;}
+#shortsectionabove{background-color: lightblue; grid-area: s3;}
 aside{background-color: lightblue;grid-area: as;}
 #shortsectionbellow{background-color: lightblue;grid-area: s4;}
 #bigsectionbellow{background-color: lightblue;grid-area: s5;}
@@ -35,12 +36,13 @@ footer{background-color: skyblue;grid-area: fo;}
 }
 
 #imageinshortsection{
-    height: 250px;
+    height: 248px;
+    width: 100%;
 }
 
 #imageinlongsection{
-    height: 170px;
-    width: 652px;
+    height: 100%;
+    width: 100%;
 }
 
 #asidemiddle{
@@ -92,8 +94,8 @@ align-items: center;
 }
 
 #logotyp{
-    height: 150px;
-    width: 150px;
+    height: 115px;
+    width: 115px;
     
 }
 #middletext{
@@ -102,6 +104,9 @@ align-items: center;
 #logotext{
     font-family: "Brush Script MT"; 
     font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #imgfullsection{
     height: 100%;

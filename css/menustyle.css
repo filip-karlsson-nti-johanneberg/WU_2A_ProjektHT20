@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{background-color: black;}
 
 .grids{
     display: grid;
@@ -62,9 +63,16 @@ footer{background-color: skyblue;grid-area: fo;}
 
 
 #logotyp{
-    height: 150px;
-    width: 150px;
+    height: 115px;
+    width: 115px;
     
+}
+#logotext{
+    font-family: "Brush Script MT"; 
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flexparent{

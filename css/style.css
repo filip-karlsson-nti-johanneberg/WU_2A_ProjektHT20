@@ -10,7 +10,7 @@ body{background-color: black;}
     height: 100vh;
     width: 100wh;
 
-grid-template-rows: 150px 30px 250px 175px 50px ;
+grid-template-rows: 150px 30px 250px 200px 50px ;
 grid-template-columns: 1fr 1fr 1fr 1fr ;
 grid-template-areas: 
 "he he he he"
@@ -48,7 +48,6 @@ footer{background-color: skyblue;grid-area: fo;}
 #asidemiddle{
     display: flex;
     justify-content: center;
-    align-items: top;
 }
 
 .rubriktext{
@@ -58,7 +57,7 @@ text-decoration: underline;
 }
 
 .loremtext{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     display: block;
 }
 
